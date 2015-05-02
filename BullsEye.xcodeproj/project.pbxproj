@@ -15,6 +15,7 @@
 		F20B4C6A1AF3649D008945BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20B4C681AF3649D008945BE /* LaunchScreen.xib */; };
 		F20B4C761AF3649D008945BE /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B4C751AF3649D008945BE /* BullsEyeTests.swift */; };
 		F20B4C821AF3D370008945BE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B4C811AF3D370008945BE /* AboutViewController.swift */; };
+		F20B4C841AF3E4BA008945BE /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F20B4C831AF3E4BA008945BE /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F20B4C741AF3649D008945BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F20B4C751AF3649D008945BE /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
 		F20B4C811AF3D370008945BE /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
+		F20B4C831AF3E4BA008945BE /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				F20B4C661AF3649D008945BE /* Images.xcassets */,
 				F20B4C681AF3649D008945BE /* LaunchScreen.xib */,
 				F20B4C5E1AF3649D008945BE /* BullsEye.xcdatamodeld */,
+				F20B4C831AF3E4BA008945BE /* BullsEye.html */,
 				F20B4C5A1AF3649D008945BE /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20B4C651AF3649D008945BE /* Main.storyboard in Resources */,
+				F20B4C841AF3E4BA008945BE /* BullsEye.html in Resources */,
 				F20B4C6A1AF3649D008945BE /* LaunchScreen.xib in Resources */,
 				F20B4C671AF3649D008945BE /* Images.xcassets in Resources */,
 			);
