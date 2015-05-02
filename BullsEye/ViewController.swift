@@ -58,6 +58,20 @@ class ViewController: UIViewController {
         updateValue()
         //currentValue = lroundf(slider.value)
         // Do any additional setup after loading the view, typically from a nib.
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")
+        slider.setThumbImage(thumbImageNormal, forState: .Normal)
+        
+        let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")
+        slider.setThumbImage(thumbImageHighlighted, forState: .Highlighted)
+        
+        let insets = UIEdgeInsets (top: 0, left: 14, bottom: 0, right: 14)
+        
+        if let trackLeftImage = UIImage(named: "SliderTrackLeft") { let trackLeftResizable =
+            trackLeftImage.resizableImageWithCapInsets(insets); slider.setMinimumTrackImage(trackLeftResizable, forState: .Normal)
+        }
+        if let trackRightImage = UIImage(named: "SliderTrackRight") {
+            let trackRightResizable = trackRightImage.resizableImageWithCapInsets(insets)
+            slider.setMaximumTrackImage(trackRightResizable, forState: .Normal) }
     }
 
     override func didReceiveMemoryWarning() {
